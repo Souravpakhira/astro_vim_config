@@ -26,7 +26,9 @@ return {
     ["<S-Tab>"] = { ":bprevious<cr>", desc = "Previous buffer" },
     ["]b"] = false,
     ["[b"] = false,
-    [";"] = { ":", desc = "enter command mode" },
+    ["<C-d>"] = { "<C-d>zz", desc = "Move down" },
+    ["C-u"] = { "<C-u>zz", desc = "Move up" },
+    -- [";"] = { ":", desc = "enter command mode" },
   },
   t = {
     -- setting a mapping to false will disable it

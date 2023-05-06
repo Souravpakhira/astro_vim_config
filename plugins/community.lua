@@ -6,6 +6,7 @@ return {
 
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.bars-and-lines.heirline-mode-text-statusline" },
+  { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.typescript" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
