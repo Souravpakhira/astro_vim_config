@@ -29,6 +29,10 @@ return {
     ["<C-d>"] = { "<C-d>zz", desc = "Move down" },
     ["C-u"] = { "<C-u>zz", desc = "Move up" },
     -- [";"] = { ":", desc = "enter command mode" },
+    ["<leader>td"] = {
+      function() require("astronvim.utils").toggle_term_cmd "lazydocker" end,
+      desc = "ToggleTerm lazydocker",
+    },
   },
   t = {
     -- setting a mapping to false will disable it
