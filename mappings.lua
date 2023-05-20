@@ -39,5 +39,8 @@ return {
     -- ["<esc>"] = false,
   },
   v = {},
-  i = {},
+  i = {
+
+    ["C-;"] = false, -- change description but the same command
+  },
 }
