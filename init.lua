@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "kanagawa",
+  colorscheme = "dracula",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -81,6 +81,12 @@ return {
     --   },
     -- }
     -- vim.on_key(function() end, vim.api.nvim_create_namespace "auto_hlsearch")
+    vim.filetype.add {
+      extension = {
+        tf = "terraform",
+        tfvars = "terraform",
+      },
+    }
   end,
 
   -- Statusline
